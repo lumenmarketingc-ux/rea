@@ -19,7 +19,8 @@ These search capabilities are **documented**, not dynamically observed in the RE
 
 ## How the prototype applies the evidence
 
-The updated [REA Evidence Workspace](dreamina-evidence-workspace.html) adapts those ideas to REA's evidence-centered workflow: target-scoped investigation prompts, searchable evidence by title/text/type, and separate labels for observed, documented, and inferred claims. Its sample data comes from the capture and linked official documentation. The prompt action is a local prototype; it does not connect to a live REA session or an AI model.
+The updated [REA Evidence Workspace](dreamina-evidence-workspace.html) adapts those ideas to REA's evidence-centered workflow: target-scoped investigation prompts, searchable evidence by title/text/type, and separate labels for observed, documented, and inferred claims. It can import a saved REA browser-capture JSON file (up to 20 MB), index its textual DOM/accessibility/URL/event artifacts in memory, and download the currently filtered evidence as JSON. It does not upload imported files, execute REA tools, or call an AI model; prompt submission only drafts a local search over loaded evidence. Imported data clears when the user clears it or reloads the page.
 
 Project context: [REA repository](https://github.com/lumenmarketingc-ux/rea) and its [website design guide](https://github.com/lumenmarketingc-ux/rea/blob/main/website/style-guide.md).
+
 
